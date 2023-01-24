@@ -1,0 +1,129 @@
+header {
+  padding: 30px 20px;
+  /* background: red; */
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header a {
+  color: var(--blue);
+  text-decoration: none;
+}
+header .logo {
+  /* display: inline-block; */
+  float: left;
+  margin-right: 28px;
+}
+header .logo img {
+  width: 40px;
+}
+
+header .menu {
+  /* display: inline-block; */
+  float: left;
+  position: relative;
+  top: 20px;
+}
+header .menu a {
+  text-transform: uppercase;
+}
+
+header .header-buttons {
+  /* display: inline-block; */
+  float: right;
+  cursor: pointer;
+}
+header .header-buttons .blue-btn {
+  background: var(--lightblue);
+  padding: 14px 46px;
+  color: white;
+  border-radius: 25px;
+  margin-right: 5px;
+  text-transform: uppercase;
+  position: relative;
+  top: 20px;
+}
+header .header-buttons .blue-btn .fas {
+  margin-left: 10px;
+}
+header .header-buttons .orange-btn {
+  background: var(--orange);
+  padding: 14px 46px;
+  color: white;
+  border-radius: 25px;
+  text-transform: uppercase;
+  position: relative;
+  top: 20px;
+}
+header .sidebar-logo {
+  display: none;
+}
+
+/* Laptop Devices */
+@media only screen and (max-width: 1215px) {
+}
+
+/* Tablets Devices */
+@media only screen and (max-width: 1023px) {
+  header .menu {
+    display: none;
+  }
+  header .header-buttons .blue-btn {
+    margin-right: 7px;
+  }
+
+  header .sidebar-logo {
+    display: inline-block;
+    position: relative;
+    top: 15px;
+    left: 100px;
+  }
+  header .sidebar-logo span .fa-solid {
+    font-size: 2rem;
+    color: var(--lightblue);
+    cursor: pointer;
+  }
+}
+
+/* Mobile devices Devices */
+@media only screen and (max-width: 767px) {
+  header {
+    width: 100%;
+    max-width: none;
+    display: block;
+    margin-bottom: 0;
+  }
+  header .logo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  header .logo img {
+    width: 50px;
+  }
+  header .menu {
+    display: none;
+  }
+  header .header-buttons {
+    display: none;
+  }
+  header .sidebar-logo {
+    display: inline;
+    /* overflow: hidden; */
+  }
+  header .sidebar-logo span .fa-solid {
+    font-size: 2.5rem;
+    color: var(--lightblue);
+    cursor: pointer;
+    position: relative;
+    top: -70px;
+    right: 120px;
+  }
+}
