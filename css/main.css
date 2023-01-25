@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
-@import "Landing-page-headphones/css/header.css";
-@import "/css/design-by.css";
-@import "/css/color-collection.css";
-@import "/css/blue-print.css";
-@import "/css/latest.css";
-@import "/css/top-jumbo.css";
-@import "/css/footer.css";
+@import "header.css";
+@import "design-by.css";
+@import "color-collection.css";
+@import "blue-print.css";
+@import "latest.css";
+@import "top-jumbo.css";
+@import "footer.css";
 
 :root {
   --orange: #fea83b;
