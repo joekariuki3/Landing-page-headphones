@@ -76,14 +76,11 @@ header .sidebar-logo {
     display: none;
   }
   header .header-buttons {
-    display: none;
+    display: inline;
   }
 
   header .sidebar-logo {
-    display: inline-block;
-    position: relative;
-    top: 15px;
-    left: 80%;
+    display: none;
   }
   header .sidebar-logo span .fa-solid {
     font-size: 2rem;
