@@ -114,6 +114,9 @@ header .sidebar-logo {
   }
   header .sidebar-logo {
     display: inline;
+    position: relative;
+    top: 15px;
+    left: 70%;
     /* overflow: hidden; */
   }
   header .sidebar-logo span .fa-solid {
