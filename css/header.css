@@ -75,15 +75,15 @@ header .sidebar-logo {
   header .menu {
     display: none;
   }
-  header .header-buttons .blue-btn {
-    margin-right: 7px;
+  header .header-buttons {
+    display: none;
   }
 
   header .sidebar-logo {
     display: inline-block;
     position: relative;
     top: 15px;
-    left: 100px;
+    left: 80%;
   }
   header .sidebar-logo span .fa-solid {
     font-size: 2rem;
@@ -107,6 +107,7 @@ header .sidebar-logo {
   }
   header .logo img {
     width: 50px;
+    display: flex;
   }
   header .menu {
     display: none;
@@ -124,6 +125,6 @@ header .sidebar-logo {
     cursor: pointer;
     position: relative;
     top: -70px;
-    right: 120px;
+    left: 18%;
   }
 }
